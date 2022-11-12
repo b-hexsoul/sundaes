@@ -6,6 +6,8 @@ We want tests to mimic how users will interact with our software
 
 fireEvent allows for one specific event but often multiple events are fired for a DOM element or because of a DOM element.
 
+All methods off of the userEvent are promises!
+
 `const user = userEvent.setup();`
 
 ## Screen Query Methods
