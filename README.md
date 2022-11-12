@@ -36,4 +36,14 @@ All methods off of the userEvent are promises!
   - LabelText
   - DisplayValue
 
+## Asynchronous
+
+When you are waiting for something to appear asynchronously on the page, you must use **await findBy**
+
+**waitFor** When in need to wait for any period of time you can use waitFor, to wait for your expectations to pass.
+
+## Debugging
+
+CLI 'p' to search test files. Can add .only or .skip on a test too.
+
 [cheet sheet](https://testing-library.com/docs/react-testing-library/cheatsheet/#queries)
